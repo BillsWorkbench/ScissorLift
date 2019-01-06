@@ -35,8 +35,6 @@ while UpperLimit == 'No':
     print ('going up')
     servo1.motorMode(1000)
     LowerLimit = 'No'
-    print (UpperLimit)
-print ('done')
 
 #Move Slider to lower the scissor
 while LowerLimit == 'No':
@@ -46,6 +44,6 @@ while LowerLimit == 'No':
     print ('going down')
     servo1.motorMode(-1000)
     UpperLimit = 'No'
-    print (LowerLimit)
 servo1.motorMode(0)
 
+print ('done moving')
