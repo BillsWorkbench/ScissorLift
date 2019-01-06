@@ -20,7 +20,6 @@ while LowerLimit == 'No':
         LowerLimit = 'Yes'
     print ('going down')
     UpperLimit = 'No'
-    print (LowerLimit)
 print ('out')
 
 while UpperLimit == 'No':
@@ -28,6 +27,5 @@ while UpperLimit == 'No':
         UpperLimit = 'Yes'
     print ('going up')
     LowerLimit = 'No'
-    print (UpperLimit)
 print ('done')
 
